@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Blog</title>
+    <link href="estilospro.css" rel="stylesheet">
+    <!-- Bootstrap: CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- ESTE ES PARA PONER LOS ICONOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body style="background-color: rgb(15, 15, 15);">
+    <!--NAVBAR-->
+    <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-lg" style="background-color: black;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color:White">PROPUESTAS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html" style="color:White">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reportes.html" style="color:White">REPORTES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="inicarsesion.html" style="color:White">INICIAR SESIÓN <i
+                                    class="bi bi-person-fill-add"></i></a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        <!--carousel-->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgpro/FondoMenu1.png" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="carouseltxt">
+                            <h2>¡VAMOS A HACER UN CAMBIO!
+                        </div>
+                        </h2>
+                        <div class="carouseltxt">
+                            <p>Contribuye a seguir innovando</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imgpro/vecindario.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="carouseltxt">
+                            <h2>¿ALGUNA IDEA?</h2>
+                        </div>
+                        <div class="carouseltxt">
+                            <p>¡No lo dudes, envíala! </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="imgpro/FondoMenu2.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="carouseltxt">
+                            <h2>¡SIGAMOS EXPLORANDO!</h2>
+                        </div>
+                        <div class="carouseltxt">
+                            <p>Siempre innovando juntos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div id="carta-apartado">
+            <!--Card-->
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card" style="background-color:white; border: 1px solid;">
+                        <img src="imgpro/casanoche.png" style="height: 320px; width: auto;">
+                        <div class="card-body">
+                            <h4 class="card-title">Consulta tus propuestas</h4>
+                            <p class="card-text">Consulta el estado de todas tus propuestas realizadas.
+                            </p>
+                            <a href="consultarp.html" class="btn btn-dark">Consultar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card" style="background-color:white; border: 1px solid;">
+                        <img src="imgpro/ciudad1.png" style="height: 320px; width: auto;">
+                        <div class="card-body">
+                            <h4 class="card-title">Contribuye al cambio</h4>
+                            <p class="card-text">¿Alguna idea nueva? Envíanos tus ideas.
+                            </p>
+                            <a href="DatosUsuarioPropuesta.html" class="btn btn-dark">Crear</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--zona final-->
+        <div id="zona-final">
+            <p>Contactos</p>
+            <h1><a class="bi bi-instagram" href="https://www.facebook.com/" role="button"></a> <a class="bi bi-facebook"
+                    href="https://www.instagram.com/" role="button"></a>
+                <a class="bi bi-whatsapp" href="https://www.whatsapp.com/?lang=es_LA" role="button">
+            </h1></a>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>
